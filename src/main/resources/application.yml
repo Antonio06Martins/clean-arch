@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://c:cleanpassword@localhost:27017
+      database: boot-mongodb
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm.ss.SSS} %X{X-Request-ID} %highlight(%-5level) %magenta([%t]) %msg%n"
