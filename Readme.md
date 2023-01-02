@@ -47,7 +47,7 @@
 
 * No terminal, clone o projeto:
 ```
-git clone  https://github.com/Antoni
+git clone  https://github.com/Antonio06Martins/clean-arch
 ```
 
 * Com o Docker iniciado:
@@ -89,7 +89,7 @@ java -jar wiremock-jre8-standalone-2.35.0.jar --port 8082
 ```jsregexp
 http://localhost:8085/
 ```
-* Exemplo de json para posta no topico
+* Exemplo de json para postar no topico.
 
 ```json
 {
@@ -102,9 +102,9 @@ http://localhost:8085/
 ```
 
 * Algumas evoluções devem ser feitas no decorrer do estudo.
-* Como adicionas Swagger.
+* Como adicionar Swagger.
 * Adicionar Client para consumir outra API com web-flux.
-* Adicionar consumer e producer para com Kafka-stream.
+* Adicionar consumer e producer com Kafka-stream.
 * Adicionar Prometheus para metricas e Jaeger para rastreamento da aplicação.
 
 
